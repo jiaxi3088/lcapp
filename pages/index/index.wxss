@@ -1,0 +1,24 @@
+/**index.wxss**/
+.slide-image{width: 100%;height:350rpx}
+.home_se{width: 92%;margin: 4%;}
+.home_view{width: 100%;display: -webkit-flex;margin-bottom: 20rpx}
+.home_view text{color: white;font-size:36rpx}
+.home_se_kong{flex: 1;}
+.home_se1{flex: 27;height: 250rpx;line-height: 250rpx;background: #84d017 url(http://localhost/img/home_1.png) no-repeat 90% center;}
+.home_se1 text{margin-left: 50rpx}
+.home_se1:active{background-color: #95ea1c;}
+.home_se2{flex: 15;height: 250rpx;line-height: 380rpx;background: #fe864c url(http://localhost/img/home_2.png) no-repeat center 50rpx;text-align: center;}
+.home_se2:active{background-color: #fa9767;}
+.home_se3{flex: 27;height: 250rpx;line-height: 250rpx;background: #0ed4c9 url(http://localhost/img/home_3.png) no-repeat 90% center;}
+.home_se3 text{text-align: left;margin-left: 50rpx}
+.home_se3:active{background-color: #10ece0;}
+.home_se4{flex: 15;height: 250rpx;line-height: 380rpx;background: #ff677b url(http://localhost/img/home_4.png) no-repeat center 50rpx;text-align: center;}
+.home_se4:active{background-color: #fe8293;}
+.home_se_thr{flex: 27;}
+.home_se_thr_box{display: -webkit-flex;}
+.home_se5{flex: 16;height: 250rpx;line-height: 380rpx;background: #398ff5 url(http://localhost/img/home_5.png) no-repeat center 50rpx;text-align: center;}
+.home_se5:active{background-color: #509bf5;}
+.home_se6{flex: 16;height: 250rpx;line-height: 380rpx;background: #747ae8 url(http://localhost/img/home_6.png) no-repeat center 50rpx;text-align: center;}
+.home_se6:active{background-color: #858ae7;}
+.home_se7{flex: 15;height: 250rpx;line-height: 380rpx;background: #9657f3 url(http://localhost/img/home_7.png) no-repeat center 50rpx;text-align: center;}
+.home_se7:active{background-color: #a570f4;}

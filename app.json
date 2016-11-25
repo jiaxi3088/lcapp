@@ -1,0 +1,38 @@
+{
+    "pages": [
+    "pages/index/index",
+    "pages/mall/mall"
+  ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "乐从家居信用网",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#ccc",
+        "selectedColor": "black",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "images/index_homepage.png",
+            "selectedIconPath":"images/index_homepage_press.png"
+        }, {
+            "pagePath": "pages/mall/mall",
+            "text": "家具商城",
+            "iconPath": "images/index_shop.png",
+            "selectedIconPath":"images/index_shop_press.png"
+        }, {
+            "pagePath": "pages/index/index",
+            "text": "信用查询",
+            "iconPath": "images/index_mall.png",
+            "selectedIconPath":"images/index_mall_press.png"
+        }, {
+            "pagePath": "pages/index/index",
+            "text": "我的",
+            "iconPath": "images/index_me.png",
+            "selectedIconPath":"images/index_me_press.png"
+        }]
+    },
+    "debug":"false"
+}

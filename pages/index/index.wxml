@@ -1,0 +1,45 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 色块  -->
+<view class="home_se">
+  <view class="home_view">
+    <view class="home_se1" tapmode="active" bindtap="gotoMall">
+      <text>家具城</text>
+    </view>
+    <view class="home_se_kong"></view>
+    <view class="home_se2" tapmode="active" bindtap="">
+      <text>诚信店公示</text>
+    </view>
+  </view>
+  <view class="home_view">
+    <view class="home_se3 " tapmode="active" bindtap="">
+      <text>家具.商户</text>
+    </view>
+    <view class="home_se_kong"></view>
+    <view class="home_se4" tapmode="active" bindtap="">
+      <text>信用档案</text>
+    </view>
+  </view>
+  <view class="home_view">
+    <view class="home_se_thr">
+      <view class="home_se_thr_box">
+        <view class="home_se5" tapmode="active" bindtap="">
+          <text>促销活动</text>
+        </view>
+        <view class="home_se_kong"></view>
+        <view class="home_se6" tapmode="active" bindtap="">
+          <text>用公示</text>
+        </view>
+      </view>
+    </view>
+    <view class="home_se_kong"></view>
+    <view class="home_se7" tapmode="active" bindtap="">
+      <text>家具知识</text>
+    </view>
+  </view>
+</view>
